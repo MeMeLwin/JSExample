@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Example</title>
+    <script>
+      function sayHello(person){
+        document.write(" Hello ! "+person);
+      }
+    </script>
+  </head>
+  <body>
+
+    <iframe width="500" height="345"
+      src="https://www.youtube.com/embed/KrZHPOeOxQQ">
+    </iframe>
+    <hr>
+    <script>
+      document.write("Hello, JavaScript"+"<br>");
+      var myvariable1=2;
+      var myvariable2="Me Me Lwin";
+      var myvariable3=true;
+      var words="Gone with ";
+      var morewords="the Winds";
+      var sentence=words+morewords;
+      var n1=3;
+      var n2=6;
+      var total=n1+n2;
+      var str="phantom";
+      var length=str.length;
+      document.write(myvariable1+"<br>"+myvariable2+"<br>"+myvariable3+"<br>"+sentence+"<br>"+total+"<br>"+length+"<br>");
+      var letter=str.substring(1,6);
+      document.write("substring of phantom : "+letter);
+
+      var a=new Array(7);
+      a[0]="fish";
+      a[4]=true;
+      a[6]=5;
+      var b=["dog",5,true];
+      b.push("horse");
+      document.write("<br>Array : "+a[0]+b[3]);
+      sayHello("Me Me ");
+
+      var number=5;
+      if(number>10){
+        document.write("number is greater than 10");
+        //alert("number is greater than 10");
+      }else {
+        document.write("number is less than 10 <br>");
+        //alert("number is less than 10!!!");
+      }
+      for(i=1;i<=5;i++){
+        document.write(i+"<br>");
+      }
+
+    </script>
+  </body>
+</html>
